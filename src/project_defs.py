@@ -109,4 +109,3 @@ class Features:
     def feature3(selfs,user_graph):
         for user_id in user_graph:
             user_graph[user_id].populate_friends_network(user_graph,4)
-       col= UserGraph()
